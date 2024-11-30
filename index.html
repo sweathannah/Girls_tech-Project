@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Apparel</title>
+
+    <link href="./src/output.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Numans&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body{
+            font-family: "Josefin Sans", sans-serif;
+        }
+    </style>
+</head>
+<body class="flex flex-row flex-wrap w-[80%] m-auto">
+    <section class="flex items-center justify-center my-[2.5rem]">
+        <article class=" mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-10 w-fit bg-no-repeat" style="background-image: url(./Assets/bg-pattern-desktop.svg);">
+            <!-- Left Section -->
+            <div class="px-20 py-10 text-[#ce9797]" > 
+                <img src="./Assets/logo.svg" alt="Base Apparel Logo">
+                <h1 class="mt-16 text-[2.5rem] w-[10rem] tracking-[0.8rem] font-[300]">WE'RE <span class="text-[#3d2626] font-[600]">COMING SOON</span></h1>
+                <p class="text-sm my-5">
+                Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+                </p>
+                <form class="flex items-center p-2 rounded-full relative">
+                    <input
+                        type="email"
+                        placeholder="Email Address"
+                        class="flex-1 p-3 rounded-full text-[#ce9797]  border border-[#ce9797]"
+                    />
+                    <button
+                        type="submit"
+                        class="bg-gradient-to-r from-pink-500 to-red-400 py-4 px-10 rounded-full shadow-md hover:opacity-90 transition absolute right-[2px]"
+                    >
+                        <img src="./Assets/icon-arrow.svg" alt="icon-arrow">
+                    </button>
+                </form>
+            </div>
+            <!-- Right Section -->
+            <div class="">
+                <img
+                src="./Assets/hero-desktop.jpg"
+                alt="Woman in orange shirt"
+                class="rounded-e-lg shadow-lg h-[35rem]"
+                />
+          </div>
+        </article>
+    </section>
+      
+</body>
+</html>
